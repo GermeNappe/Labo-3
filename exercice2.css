@@ -2,16 +2,20 @@ table, td, th{
     margin: auto;
     border: 2px solid black;
     border-collapse: collapse;
-    padding-inline-end: 100px;
+    width: 1000px;
+}
+
+td{
     text-align: left;
 }
 
-th{
+tr:nth-child(n){
     color: white;
 }
 
 tr:nth-child(2n){
     background-color: aquamarine;
+    color: black;
 }
 
 h1{
